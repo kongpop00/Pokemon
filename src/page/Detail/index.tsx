@@ -45,10 +45,10 @@ const Detail = () => {
 
   return (
     <div className="">
-      <div className=" bg-[url('public/POKEMON.svg')] h-[100vh] py-[100px] bg-cover bg-center flex flex-col justify-center items-center text-center ">
+      <div className=" bg-[url('public/assets/POKEMON.svg')] h-[100vh] py-[100px] bg-cover bg-center flex flex-col justify-center items-center text-center ">
         <div className=" w-[70%] sm:w-[80%] ">
           <div className="w-[50%]  sm:w-[50%] md:w-[50%] lg:w-[30%]  m-[auto] z-20 relative ">
-            <img src="/public/logo.png" alt="" />
+            <img src="public/assets/logo.png" alt="" />
           </div>
           <div className="w-[90%] max-w-[600px] m-[auto]  ">
             {pokemon.data && (
