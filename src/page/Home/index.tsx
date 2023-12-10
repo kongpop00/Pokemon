@@ -7,10 +7,10 @@ const Homepage = () => {
   const { pokemon, featchpokemon } = usePokemonlistStore();
 
   return (
-    <div className="bg-[url('public/assets/BG-HOME.svg')] h-[100%]   ">
+    <div className="bg-[url('/assets/BG-HOME.svg')] h-[100%]   ">
       <div className="w-[80%] m-[auto]">
         <div className="w-[90%]  sm:w-[70%] md:w-[70%] lg:w-[40%]  m-[auto]  ">
-          <img src="public/assets/logo.png" alt="" />
+          <img src="/assets/logo.png" alt="" />
         </div>
         <Searchform />
 

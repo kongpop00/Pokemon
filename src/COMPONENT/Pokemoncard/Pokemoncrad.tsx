@@ -14,7 +14,7 @@ const Pokemoncrad = ({image ,id , name ,types }:Pokemoncrdpops) => {
    
 
 <div className={ `max-w-[280px] rounded-[20px] shadow dark:bg-gray-800 dark:border-gray-700 overflow-hidden p-[10px] bg-white m-[auto]`}>
-    <div className=" bg-[url('public/assets/backgroundCard.png')] bg-center  bg-cover rounded-lg">
+    <div className=" bg-[url('/assets/backgroundCard.png')] bg-center  bg-cover rounded-lg">
     <Link to={`/detail/${name}`}>
         <img className=" h-[218px]  p-[30px] w-[300px]  rounded-[20px]" src={image} alt="" />
     </Link>
